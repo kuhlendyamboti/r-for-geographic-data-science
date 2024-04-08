@@ -25,7 +25,7 @@ leicester_2011OAC <- read_csv(paste0(Sys.getenv("RGDS_HOME"), "/data/", "2011_OA
 
 
 
-## GGlot2 recap
+## GGplot2 recap
 
 As seen in the introductory chapter, the [`ggplot2` library](https://ggplot2.tidyverse.org) is part of the Tidyverse, and it offers a series of functions for creating graphics **declaratively**, based on the concepts outlined in the Grammar of Graphics. While the `dplyr` library offers functionalities that cover *data manipulation* and *variable transformations*, the `ggplot2` library offers functionalities that allow to specify elements, define guides, and apply scale and coordinate system transformations.
 
